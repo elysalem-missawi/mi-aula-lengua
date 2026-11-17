@@ -379,7 +379,87 @@ export const lessons = [
         ]
       }
     ]
-  }
+  },
+
+  {
+    id: "figuras",
+    area: "Recursos literarios",
+    title: "Figuras literarias o retóricas",
+    tag: "Muy importante · Examen",
+    summary: "Aprende a reconocer las 16 figuras literarias mediante palabras clave, ejemplos y mapas mentales.",
+    mindmap: [
+      { name: "COMPARAR Y SUSTITUIR", color: "mind-blue", items: ["Símil: compara usando como / parece.", "Metáfora: identifica una cosa con otra imaginaria.", "Metonimia: nombra algo con el nombre de otra cosa relacionada."] },
+      { name: "REPETIR", color: "mind-purple", items: ["Anáfora: repite palabras al principio.", "Aliteración: repite sonidos.", "Paralelismo: repite estructuras sintácticas."] },
+      { name: "CAMBIAR EL ORDEN O LOS SENTIDOS", color: "mind-orange", items: ["Hipérbaton: altera el orden lógico.", "Sinestesia: mezcla sensaciones de sentidos distintos."] },
+      { name: "CONTRASTAR Y UNIR OPUESTOS", color: "mind-green", items: ["Antítesis: contrapone palabras o ideas opuestas.", "Oxímoron: une dos palabras contradictorias.", "Paradoja: une ideas aparentemente opuestas."] },
+      { name: "EXAGERAR Y DAR VIDA", color: "mind-pink", items: ["Hipérbole: exagera la realidad.", "Personificación: atribuye cualidades humanas a seres u objetos."] },
+      { name: "SONIDOS Y MATICES", color: "mind-yellow", items: ["Onomatopeya: imita un sonido.", "Epíteto: adjetivo que expresa una cualidad propia.", "Ironía: expresa lo contrario de lo que se quiere dar a entender."] }
+    ],
+    sections: [
+      {
+        h: "Mapa mental: las 16 figuras en un vistazo",
+        p: "Memoriza primero las seis familias del mapa. Después aprende la palabra clave de cada figura y practica con ejemplos.",
+        items: ["COMPARAR / SUSTITUIR: símil, metáfora y metonimia.", "REPETIR: anáfora, aliteración y paralelismo.", "CAMBIAR: hipérbaton y sinestesia.", "OPONER: antítesis, oxímoron y paradoja.", "INTENSIFICAR / HUMANIZAR: hipérbole y personificación.", "SONIDOS / MATICES: onomatopeya, epíteto e ironía."]
+      },
+      {
+        h: "Comparación y sustitución",
+        items: [
+          "Símil o comparación: establece una relación de semejanza entre dos elementos. Pista: suele aparecer «como», «igual que» o «parece». Ejemplo: «Tus ojos brillan como estrellas».",
+          "Metáfora: sustituye o identifica un término real con uno imaginario por su semejanza. Ejemplo: «Tus ojos son dos estrellas».",
+          "Metonimia: designa una cosa con el nombre de otra con la que mantiene una relación (autor por obra, continente por contenido, etc.). Ejemplo: «Leí a Cervantes» (leí una obra de Cervantes)."
+        ]
+      },
+      {
+        h: "Repetición",
+        items: [
+          "Anáfora: repetición de una o varias palabras al principio de versos o enunciados. Ejemplo: «Aquí se escucha, aquí se sueña, aquí se vive».",
+          "Aliteración: repetición de sonidos para crear un efecto expresivo. Ejemplo: «Su susurro suave sonaba».",
+          "Paralelismo: repetición de estructuras sintácticas similares. Ejemplo: «Tu mirada me guía, tu sonrisa me calma»."
+        ]
+      },
+      {
+        h: "Alteración del orden y de las sensaciones",
+        items: [
+          "Hipérbaton: alteración del orden habitual o lógico de las palabras. Ejemplo: «Del salón en el ángulo oscuro…» (orden alterado).",
+          "Sinestesia: atribuye a una sensación cualidades propias de otro sentido. Ejemplo: «una voz dulce» (oído + gusto)."
+        ]
+      },
+      {
+        h: "Contraposición y unión de opuestos",
+        items: [
+          "Antítesis: contrapone palabras o ideas de significado opuesto. Ejemplo: «Es tan corto el amor y tan largo el olvido».",
+          "Oxímoron: une dos palabras de significado opuesto en una misma expresión. Ejemplo: «silencio atronador».",
+          "Paradoja: une ideas aparentemente contradictorias que invitan a reflexionar o encierran un sentido. Ejemplo: «Vivo sin vivir en mí»."
+        ]
+      },
+      {
+        h: "Exageración y personificación",
+        items: [
+          "Hipérbole: exageración intencionada de la realidad. Ejemplo: «Te lo he dicho un millón de veces».",
+          "Personificación: atribuye cualidades o acciones humanas a animales, objetos o ideas. Ejemplo: «El viento susurraba»."
+        ]
+      },
+      {
+        h: "Sonidos y matices expresivos",
+        items: [
+          "Onomatopeya: palabra o expresión que imita un sonido. Ejemplo: «tic-tac», «miau», «bum».",
+          "Epíteto: adjetivo que destaca una cualidad inherente o característica del sustantivo. Ejemplo: «blanca nieve».",
+          "Ironía: expresa algo dando a entender lo contrario, normalmente por el contexto o el tono. Ejemplo: decir «¡Qué puntual!» a alguien que llega muy tarde."
+        ]
+      },
+      {
+        h: "Trucos para no confundirlas en el examen",
+        items: [
+          "SÍMIL vs. METÁFORA: «como una estrella» = símil; «es una estrella» = metáfora.",
+          "ANÁFORA vs. ALITERACIÓN: repetición de palabras al inicio = anáfora; repetición de sonidos = aliteración.",
+          "ANTÍTESIS vs. OXÍMORON vs. PARADOJA: oposición de ideas/palabras = antítesis; dos términos opuestos juntos = oxímoron; contradicción de una idea completa = paradoja.",
+          "HIPÉRBOLE vs. PERSONIFICACIÓN: exagerar = hipérbole; dar rasgos humanos = personificación.",
+          "ONOMATOPEYA vs. ALITERACIÓN: imitar un sonido reconocible = onomatopeya; repetir fonemas para producir efecto = aliteración.",
+          "METÁFORA vs. METONIMIA: semejanza = metáfora; relación de proximidad o asociación = metonimia."
+        ]
+      }
+    ]
+  },
 ];
 
 export const questions = [
@@ -574,7 +654,23 @@ export const questions = [
     a: 1,
     why:
       "Un esquema organiza y jerarquiza las ideas principales y secundarias para facilitar la comprensión y el estudio."
-  }
+  },
+  { q: "¿Qué figura establece una semejanza usando normalmente «como»?", opts: ["Metáfora", "Símil", "Metonimia", "Hipérbole"], a: 1, why: "El símil compara dos elementos; suele utilizar como, parece o igual que." },
+  { q: "«Tus dientes son perlas» es un ejemplo de…", opts: ["Metáfora", "Símil", "Anáfora", "Epíteto"], a: 0, why: "La metáfora identifica el término real (dientes) con uno imaginario (perlas)." },
+  { q: "¿Qué figura repite palabras al principio de varios versos o enunciados?", opts: ["Aliteración", "Paralelismo", "Anáfora", "Hipérbaton"], a: 2, why: "La anáfora repite palabras o expresiones al comienzo." },
+  { q: "La repetición de sonidos se denomina…", opts: ["Anáfora", "Aliteración", "Metonimia", "Ironía"], a: 1, why: "La aliteración repite sonidos para producir un efecto expresivo." },
+  { q: "«Leí a Lorca» (una obra escrita por Lorca) es…", opts: ["Metáfora", "Metonimia", "Símil", "Paradoja"], a: 1, why: "Se nombra la obra mediante el autor: una relación de asociación." },
+  { q: "¿Qué figura altera el orden habitual de las palabras?", opts: ["Hipérbaton", "Hipérbole", "Antítesis", "Epíteto"], a: 0, why: "El hipérbaton cambia el orden lógico o habitual de la oración." },
+  { q: "«Una voz cálida» mezcla sensaciones y es…", opts: ["Onomatopeya", "Sinestesia", "Personificación", "Oxímoron"], a: 1, why: "La sinestesia atribuye al oído una cualidad asociada al tacto." },
+  { q: "La contraposición de ideas de significado opuesto es…", opts: ["Antítesis", "Metáfora", "Anáfora", "Epíteto"], a: 0, why: "La antítesis enfrenta ideas o palabras contrarias." },
+  { q: "«Un silencio atronador» es…", opts: ["Paradoja", "Oxímoron", "Hipérbole", "Símil"], a: 1, why: "El oxímoron une dos términos contradictorios en una misma expresión." },
+  { q: "«Vivo sin vivir en mí» ejemplifica…", opts: ["Paralelismo", "Paradoja", "Metonimia", "Onomatopeya"], a: 1, why: "La paradoja reúne ideas aparentemente incompatibles que tienen un sentido." },
+  { q: "«Te he esperado una eternidad» contiene…", opts: ["Hipérbole", "Epíteto", "Anáfora", "Ironía"], a: 0, why: "La hipérbole exagera intencionadamente la realidad." },
+  { q: "«Las estrellas nos miraban» contiene…", opts: ["Personificación", "Metonimia", "Símil", "Aliteración"], a: 0, why: "Se atribuye a las estrellas una acción humana: mirar." },
+  { q: "¿Qué figura imita un sonido como «tic-tac»?", opts: ["Aliteración", "Onomatopeya", "Sinestesia", "Paralelismo"], a: 1, why: "La onomatopeya reproduce o imita sonidos." },
+  { q: "«La blanca nieve» contiene normalmente…", opts: ["Epíteto", "Ironía", "Hipérbaton", "Oxímoron"], a: 0, why: "Blanca destaca una cualidad característica de la nieve." },
+  { q: "Decir «¡Qué buen tiempo!» durante una tormenta puede ser…", opts: ["Metáfora", "Ironía", "Anáfora", "Antítesis"], a: 1, why: "La ironía expresa algo dando a entender lo contrario." },
+  { q: "La repetición de estructuras sintácticas semejantes es…", opts: ["Paralelismo", "Anáfora", "Aliteración", "Metonimia"], a: 0, why: "El paralelismo repite patrones gramaticales o sintácticos similares." }
 ];
 
 export const flashcards = [
@@ -681,5 +777,22 @@ export const flashcards = [
   [
     "¿Qué se valora en el texto de opinión de la PAU 2026 de la EHU?",
     "Adecuación al registro, coherencia, cohesión, riqueza léxica, variedad sintáctica y corrección ortográfica."
-  ]
+  ],
+  ["¿Qué es el símil?", "Una comparación de semejanza, normalmente con «como», «parece» o «igual que»."],
+  ["¿Qué es la metáfora?", "Identifica o sustituye un término real por uno imaginario debido a una semejanza."],
+  ["¿Qué es la metonimia?", "Designa una cosa con el nombre de otra relacionada con ella."],
+  ["¿Qué es la anáfora?", "Repetición de palabras al principio de versos o enunciados."],
+  ["¿Qué es la aliteración?", "Repetición de sonidos para lograr un efecto expresivo."],
+  ["¿Qué es el hipérbaton?", "Alteración del orden habitual o lógico de las palabras."],
+  ["¿Qué es la sinestesia?", "Atribución a una sensación de cualidades propias de otro sentido."],
+  ["¿Qué es la antítesis?", "Contraposición de palabras o ideas de significado opuesto."],
+  ["¿Qué es el oxímoron?", "Unión de dos palabras de significado opuesto: «silencio atronador»."],
+  ["¿Qué es la paradoja?", "Unión de ideas aparentemente contradictorias que encierran un sentido."],
+  ["¿Qué es la hipérbole?", "Exageración intencionada de la realidad."],
+  ["¿Qué es la personificación?", "Atribución de cualidades o acciones humanas a seres no humanos."],
+  ["¿Qué es la onomatopeya?", "Palabra que imita un sonido: «tic-tac», «miau»."],
+  ["¿Qué es el epíteto?", "Adjetivo que expresa una cualidad inherente o característica del sustantivo."],
+  ["¿Qué es la ironía?", "Expresar algo dando a entender lo contrario, normalmente por el contexto o el tono."],
+  ["¿Qué es el paralelismo?", "Repetición de estructuras sintácticas similares."]
+
 ];

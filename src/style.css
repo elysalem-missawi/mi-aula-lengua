@@ -1556,3 +1556,16 @@ footer {
     transition-duration: 0.01ms !important;
   }
 }
+
+
+/* Mapa mental de figuras literarias */
+.mindmap-wrap{margin:24px 0 30px;padding:22px;background:#f8f9fe;border:1px solid var(--border);border-radius:16px}
+.mindmap-center{width:170px;margin:0 auto 22px;padding:15px;text-align:center;border-radius:13px;background:#26324a;color:#fff;font:800 15px/1.45 'Manrope',sans-serif;letter-spacing:.5px;box-shadow:0 5px 14px #26324a22}
+.mindmap-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.mindmap-branch{padding:15px;border:1px solid var(--border);border-left:4px solid #7890df;border-radius:11px;background:#fff}
+.mindmap-branch h3{font:800 12px/1.5 'Manrope',sans-serif;margin:0 0 8px;color:var(--text-main)}
+.mindmap-branch ul{margin:0;padding-left:18px}
+.mindmap-branch li{font-size:12px;line-height:1.65;color:var(--text-secondary);padding:3px 0}
+.mind-blue{border-left-color:#6280df}.mind-purple{border-left-color:#9871d7}.mind-orange{border-left-color:#df995b}.mind-green{border-left-color:#51a985}.mind-pink{border-left-color:#d8799b}.mind-yellow{border-left-color:#d3a33e}
+.mindmap-tip{font-size:12px;color:var(--text-muted);text-align:center;margin:16px 0 0}
+@media(max-width:650px){.mindmap-grid{grid-template-columns:1fr}.mindmap-wrap{padding:14px}}
